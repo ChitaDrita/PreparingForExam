@@ -1,5 +1,5 @@
 'use strict'
-/*
+
 function adder (a, b) {
     let sum = a + b;
     return console.log(sum);
@@ -318,6 +318,8 @@ const filterRange = (arr, a, b) => {
 console.log(filterRange(numeros, 2, 7))
 
 
-const revers = (a, b) => {
-	if(a < )
+const reverse = (a, b) => {
+	return a - b;
 }
+
+console.log(numeros.sort(reverse))
